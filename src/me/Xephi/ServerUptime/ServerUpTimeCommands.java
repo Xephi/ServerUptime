@@ -18,7 +18,7 @@ public class ServerUpTimeCommands implements CommandExecutor {
         final String msg = " " + (int)(diff / 86400000) + " days " + (int)(diff / 3600000 % 24) + " hours " + (int)(diff / 60000 % 60) + " mins " + (int)(diff / 1000 % 60) + " seconds";
         if (commandName.equals("uptime")) {
             plugin.getLogger().info("[CONSOLE]" + msg);
-            sender.sendMessage(ChatColor.YELLOW + "[UpTime]" + msg);
+            sender.sendMessage(ChatColor.YELLOW + "[ServerUpTime]" + msg);
 		}
         return true;
     }
