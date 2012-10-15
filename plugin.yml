@@ -1,0 +1,8 @@
+name: ServerUptime
+author: Xephi
+main: me.Xephi.ServerUptime.ServerUptime
+version: 1.0
+commands:
+  uptime:
+    description: display server uptime
+    usage: Use /uptime
