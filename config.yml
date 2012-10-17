@@ -1,0 +1,31 @@
+#Set the prefix for
+#[PREFIX] 0days 0hours 0mins 0secs
+prefix: ServerUptime
+#Set the color
+#available colors list
+#black
+#dark_blue
+#dark_Green
+#dark_aqua
+#dark_red
+#dark_purple
+#gold
+#gray
+#dark_Gray
+#blue
+#green
+#aqua
+#red
+#light_purple
+#yellow
+#white
+#magic
+color: yellow
+#Word for days
+days: days
+#Word for hours
+hours: hours
+#Word for minutes
+minutes: mins
+#Word for seconds
+seconds: secs

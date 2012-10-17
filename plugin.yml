@@ -1,7 +1,8 @@
 name: ServerUptime
 author: Xephi
 main: me.Xephi.ServerUptime.ServerUptime
-version: 1.0
+version: 1.1
+load: STARTUP
 commands:
   uptime:
     description: display server uptime
